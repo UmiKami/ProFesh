@@ -7,13 +7,14 @@
     box-sizing: border-box;
 }
 
-.nav-bg, .footer-bg {
+.nav-bg,
+.footer-bg {
     background: linear-gradient(90deg, #0065DB 0%, #00DFED 100%);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
 }
 
-.footer-bg{
+.footer-bg {
     min-height: 7rem;
 }
 
@@ -85,17 +86,17 @@
     border: 3px solid #006BB9;
 }
 
-.footer-btn{
+.footer-btn {
     width: 20rem;
     color: #002343;
 }
 
-.btn-submit{
+.btn-submit {
     transition: .2s ease-in-out !important;
     transition-property: transform !important;
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
     transform: scale(1.1);
 }
 
@@ -103,17 +104,82 @@
     transform: scale(1);
 }
 
-.disabled{
+.disabled {
     color: #72727267 !important;
     border-color: #9c9c9c !important;
     background-color: #c2c2c26c !important;
 }
 
-.auth-bg{
+.auth-bg {
 
-        min-height: 100vh;
+    min-height: 100vh;
+
+    background: linear-gradient(105.98deg, #00D7F4 -4.14%, #009CF4 40.44%, #00234A 100.26%);
+
+
+}
+
+
+.home-btn {
+    cursor: pointer;
+
+    margin-left: auto;
+
+    border-radius: 100rem;
+    width: 5rem;
+    height: 5rem;
+    background: #FF8A00;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+}
+
+.welcome {
+    color: #00398D;
+    font-size: 3.5rem;
+
+    font-weight: 600;
+
+
+    color: #00398D;
+
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signup-btn-1{
+    min-width: 20rem;
+    font-size: 2.6rem !important;
+    border-radius: .6rem !important;
+}
+
+.form-label-1{
     
-        background: linear-gradient(105.98deg, #00D7F4 -4.14%, #009CF4 40.44%, #00234A 100.26%);
+        font-weight: 500;
+        font-size: 22px;
+ 
+    
+        color: #00398D;
+    
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.form-control-1{
+    /* Rectangle 9 */
+        width: 609.04px !important;
+        height: 56.93px !important;
     
     
+        background: #FFFFFF !important;
+        border: 1.5px solid #494949 !important;
+        border-radius: 19px !important;
+}
+
+.text-info-1{
+color: #32CEFF !important;
+transition: color .2s ease-in-out;
+}
+.text-info-1:hover{
+color: #FF8A00 !important;
 }
